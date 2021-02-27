@@ -53,3 +53,7 @@ ol, ul {
   color: #fff;
   background-color:darkgreen;
 }
+
+.square-winner {
+  background-color:green;
+}
