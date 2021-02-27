@@ -31,13 +31,7 @@ class Board extends React.Component {
   }
 
   renderSquare(i) {
-    let isWinner = false;
-
-    for (let index = 0; index < this.props.winnerLine.length && isWinner === false; index++) {
-      if (this.props.winnerLine[index] === i) {
-        isWinner = true;
-      }
-    }
+    const isWinner = this.props.winnerLine.includes(i);
 
     return (
       <Square
