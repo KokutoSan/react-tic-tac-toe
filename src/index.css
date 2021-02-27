@@ -48,3 +48,8 @@ ol, ul {
 .game-info {
   margin-left: 20px;
 }
+
+.button-move-selected {
+  color: #fff;
+  background-color:darkgreen;
+}
